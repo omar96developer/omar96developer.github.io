@@ -2564,37 +2564,42 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 		}
-			.pipo {
-
+			.ovlay {
 				width: 100%;
 				height: 100%;
-				background-color: black;
 				display: none;
 				position: absolute;
 				top: 0;
 				left: 0;
 			}
-			.pluto {
+			.icn {
 				display: none;
+				font-size:2em; 
 				
 			}
 
 			.features li:nth-child(1) {
-				/* background-color: rgba(0, 0, 0, 0.035); */
 				background-image: url(/images/Dccomics.png);
+				background-position: center;
+				background-size: contain;
+				background-repeat: no-repeat;
 			}
-			.features li:nth-child(1):hover .pipo {
-				/* background-color: rgba(0, 0, 0, 0.035); */
+			.features li:nth-child(1):hover .ovlay {
 				display: flex;
-				opacity: 0.5;
+				flex-direction: column;
+				background-color: rgba(0, 0, 0, 0.6);
 				justify-content: center;
 				align-items: center;
-				
 			}
-			.features li:nth-child(1):hover .pluto {
-				/* background-color: rgba(0, 0, 0, 0.035); */
-				display: block;
-				
+			.features li:nth-child(1):hover .icns {
+				display: flex;
+				justify-content: center;	
+					
+			}
+
+			.features li:nth-child(1):hover .icn {
+				display: block;	
+				margin-bottom: 15px;			
 			}
 
 
