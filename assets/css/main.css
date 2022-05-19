@@ -2173,7 +2173,7 @@ input, select, textarea {
 	dl {
 		margin: 0 0 2em 0;
 	}
-
+	
 /* Actions */
 
 	ul.actions {
@@ -2552,19 +2552,51 @@ input, select, textarea {
 		list-style: none;
 		padding: 0;
 		width: 100%;
+		gap:px;;
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
+			/* padding: 4em 4em 2em 6em ; */
+			padding: 40px;
 			display: block;
 			position: relative;
 			text-align: left;
 			width: 50%;
+			position: relative;
 		}
+			.pipo {
+
+				width: 100%;
+				height: 100%;
+				background-color: black;
+				display: none;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.pluto {
+				display: none;
+				
+			}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+				/* background-color: rgba(0, 0, 0, 0.035); */
+				background-image: url(/images/Dccomics.png);
 			}
+			.features li:nth-child(1):hover .pipo {
+				/* background-color: rgba(0, 0, 0, 0.035); */
+				display: flex;
+				opacity: 0.5;
+				justify-content: center;
+				align-items: center;
+				
+			}
+			.features li:nth-child(1):hover .pluto {
+				/* background-color: rgba(0, 0, 0, 0.035); */
+				display: block;
+				
+			}
+
 
 			.features li:nth-child(2) {
 				background-color: rgba(0, 0, 0, 0.07);
@@ -3997,3 +4029,16 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	
+	/* .pippo{
+		width: 100%;
+		height: 100%;
+		background-color: #1d242a;
+		opacity: 0.5;
+		display: none;
+		
+	}
+
+	.features li:hover .pippo {
+		display: block;
+	} */
