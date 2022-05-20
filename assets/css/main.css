@@ -2647,58 +2647,58 @@ input, select, textarea {
 			}
 
 			.features li:nth-child(7) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/campominato.png);
 				background-size: cover;
-				background-position: center;
+				background-position: left;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(8) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/carousel.png);
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(9) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/outeam.png);
 				background-size: cover;
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(10) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/filter.png);
 				background-size: cover;
-				background-position: center;
+				background-position: left;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(11) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/neori.png);
 				background-size: cover;
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(12) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/zaland.png);
 				background-size: cover;
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(13) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/port.png);
 				background-size: cover;
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(14) {
-				background-image: url(/images/fizzbuzz.png);
+				background-image: url(/images/boolac.png);
 				background-size: cover;
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
 			}
 
