@@ -2583,9 +2583,9 @@ input, select, textarea {
 				font-size:2em; 
 				
 			}
-
+			
 			.features li:nth-child(1) {
-				background-image: url(/images/Dccomics.png);
+				background-image: url(/images/discord.png);
 			
 				background-size: cover;
 				background-position: center;
@@ -2612,55 +2612,97 @@ input, select, textarea {
 
 
 			.features li:nth-child(2) {
-				background-image: url(/images/Dccomics.png);
+				background-image: url(/images/drop.png);
 				background-size: cover;
-				background-position: center;
+				background-position: left;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(3) {
-				background-image: url(/images/AvadaDriving.png);
+				background-image: url(/images/grid.png);
 				background-size: cover;
-				background-position: center;
+				background-position: left;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(4) {
-				background-image: url(/images/Dccomics.png);
+				background-image: url(/images/todo.png);
 				background-size: cover;
-				background-position: center;
+				background-position: left;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(5) {
-				background-image: url(/images/Dccomics.png);
+				background-image: url(/images/dis2.png);
 				background-size: cover;
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(6) {
-				background-image: url(/images/Dccomics.png);
+				background-image: url(/images/fizzbuzz.png);
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(7) {
-				background-color: rgba(0, 0, 0, 0.245);
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(8) {
-				background-color: rgba(0, 0, 0, 0.28);
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(9) {
-				background-color: rgba(0, 0, 0, 0.315);
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(10) {
-				background-color: rgba(0, 0, 0, 0.35);
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
 			}
+
+			.features li:nth-child(11) {
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.features li:nth-child(12) {
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.features li:nth-child(13) {
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.features li:nth-child(14) {
+				background-image: url(/images/fizzbuzz.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			
 
 			.features li:before {
 				display: block;
